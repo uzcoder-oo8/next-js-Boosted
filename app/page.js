@@ -124,12 +124,25 @@ export default function Home() {
             sought after products while supplies last.
           </p>
           <div className="w-[70px] h-[2px] bg-[#CFCFCF] mb-[50px] m-auto"></div>
-          <ul className="flex w-[1100px] m-auto">
+          <ul className="flex w-[1100px] m-auto gap-[20px] mb-[20px]">
             <li className="w-[580px] h-[580px] bg-[url('../public/images1.png')]">
-              <h1>Shop Boosted Boards</h1>
+              <h1 className="text-[#fff] text-center mt-[283px]">
+                Shop Boosted Boards
+              </h1>
+              <p className="text-[#ffff] text-center">In Stock</p>
+            </li>
+            <li className="w-[580px] h-[580px] bg-[url('../public/images2.png')]">
+              <h1 className="text-[#fff] text-center mt-[283px]">
+                Shop Boosted Boards
+              </h1>
+              <p className="text-[#ffff] text-center">In Stock</p>
             </li>
           </ul>
         </div>
+      </section>
+      <section className="w-[100%] bg-[url('../public/images3.png')]  bg-no-repeat bg-cover	bg-center">
+        <p className="text-center ">High-performance</p>
+        <h1 className="text-center text-[45px] font-[400]">Electric Skateboards</h1>
       </section>
     </>
   );
