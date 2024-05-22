@@ -125,7 +125,9 @@ export default function Home() {
           </p>
           <div className="w-[70px] h-[2px] bg-[#CFCFCF] mb-[50px] m-auto"></div>
           <ul className="flex w-[1100px] m-auto">
-            <li className="w-[580px] h-[580px] bg-[url('../public/images1.png')]">y64t5r</li>
+            <li className="w-[580px] h-[580px] bg-[url('../public/images1.png')]">
+              <h1>Shop Boosted Boards</h1>
+            </li>
           </ul>
         </div>
       </section>
