@@ -141,8 +141,25 @@ export default function Home() {
         </div>
       </section>
       <section className="w-[100%] bg-[url('../public/images3.png')]  bg-no-repeat bg-cover	bg-center">
-        <p className="text-center ">High-performance</p>
-        <h1 className="text-center text-[45px] font-[400]">Electric Skateboards</h1>
+        <div className="container max-w-[1480px] m-auto">
+          <main className="pt-[44px]">
+            <p className="text-center ">High-performance</p>
+            <h1 className="text-center text-[45px] font-[400]">
+              Electric Skateboards
+            </h1>
+            <p className="text-center w-[488px] m-auto">
+              Cruising campus, going to work or getting through that long list
+              of errands has never been easier or more fun.
+            </p>
+
+            <button className="w-[201px] h-[33px] bg-[#FF4A32] rounded-[35px] text-[#fff] ml-[650px] m-auto mt-[20px] mb-[505px]">
+              Shop Now
+            </button>
+          </main>
+        </div>
+      </section>
+      <section className="w-[100%] bg-[#f4f4f4]">
+        <div className="container max-w-[1480px] m-auto"></div>
       </section>
     </>
   );
