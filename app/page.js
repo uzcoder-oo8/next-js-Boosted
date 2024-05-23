@@ -8,6 +8,9 @@ import Popular from "../public/popular.png";
 import Wired from "../public/wired.png";
 
 export default function Home() {
+  const text =
+    "There's never been an electric scooter quite like this.Speed past traffic at 24 mph. Go up to 22 miles on a singlecharge. You'll get there in no time at all. Stop and go withthe roll of your thumb. Its intuitive design means there’salmost no learning curve";
+
   return (
     <>
       <section className="w-[100%] bg-[#000]">
@@ -159,7 +162,21 @@ export default function Home() {
         </div>
       </section>
       <section className="w-[100%] bg-[#f4f4f4]">
-        <div className="container max-w-[1480px] m-auto"></div>
+        <div className="container max-w-[1480px] m-auto">
+          <main className="">
+            <ul className="flex w-[1200px] gap-[20px] m-auto pt-[45px]">
+              <li className="w-[380px] h-[380px] bg-[url('../public/images4.png')]"></li>
+              <li className="w-[380px] h-[380px] bg-[url('../public/images5.png')]"></li>
+              <li className="w-[380px] h-[380px]">
+                <h1 className="mt-[66px] text-[32px] ml-[5px]">Boosted Rev</h1>
+                <p className="w-[330px] ml-[5px]">{text}</p>
+                <button className="w-[101px] h-[33px] bg-[#FF4A32] text-[#fff] rounded-[35px] text-[15px] mt-[23px]">
+                  Shop Now
+                </button>
+              </li>
+            </ul>
+          </main>
+        </div>
       </section>
     </>
   );
