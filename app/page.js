@@ -178,7 +178,15 @@ export default function Home() {
           </main>
         </div>
       </section>
-      
+      <section className="">
+        <div className="max-w-[1480px] m-auto mt-[45px]">
+          <ul className="flex w-[1460px] m-a">
+            <li className="w-[479px] h-[479px] bg-[url('../public/images6.png')] "></li>
+            <li className="w-[479px] h-[479px] bg-[url('../public/images6.png')] "></li>
+            <li className="w-[479px] h-[479px] bg-[url('../public/images6.png')] "></li>
+          </ul>
+        </div>
+      </section>
     </>
   );
 }
