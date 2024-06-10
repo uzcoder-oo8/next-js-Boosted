@@ -180,11 +180,65 @@ export default function Home() {
       </section>
       <section className="">
         <div className="max-w-[1480px] m-auto mt-[45px]">
-          <ul className="flex w-[1460px] m-a">
-            <li className="w-[479px] h-[479px] bg-[url('../public/images6.png')] "></li>
-            <li className="w-[479px] h-[479px] bg-[url('../public/images6.png')] "></li>
-            <li className="w-[479px] h-[479px] bg-[url('../public/images6.png')] "></li>
+          <ul className="flex w-[1460px] m-auto">
+            <li className="w-[479px] h-[479px] bg-[url('../public/images6.png')] ">
+              <div className="mt-[208px]">
+                <h1 className="text-center font-[400] text-[25px] text-white">
+                  Shop Boosted Stealth
+                </h1>
+                <h1 className="text-center font-[400] text-[25px] text-white">
+                  IN STOCK
+                </h1>
+              </div>
+            </li>
+            <li className="w-[479px] h-[479px] bg-[url('../public/Frame.png')] ">
+              <div className="mt-[208px]">
+                <h1 className="text-center font-[400] text-[25px] text-white">
+                  Shop Boosted Stealth
+                </h1>
+                <h1 className="text-center font-[400] text-[25px] text-white">
+                  IN STOCK
+                </h1>
+              </div>
+            </li>
+            <li className="w-[479px] h-[479px] bg-[url('../public/Frame1.png')] ">
+              <div className="mt-[208px]">
+                <h1 className="text-center font-[400] text-[25px] text-white">
+                  Shop Boosted Stealth
+                </h1>
+                <h1 className="text-center font-[400] text-[25px] text-white">
+                  IN STOCK
+                </h1>
+              </div>
+            </li>
           </ul>
+          <ul className="flex gap-[20px] w-[1100px] m-auto mt-[55px]">
+            <li>
+              <iframe
+                width="540"
+                height="304"
+                src="https://www.youtube.com/embed/78bXV1ZqQWI?si=iAi4o2SHty1dTTGK"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </li>
+            <li>
+              <iframe
+                width="540"
+                height="304"
+                src="https://www.youtube.com/embed/MKeqc5vgIX8?si=DH9bzb-i22TD_QBi"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </li>
+          </ul>
+          <h1 className="text-center font-[700] text-[32px] mt-[55px]">Looking for Accessories?</h1>
         </div>
       </section>
     </>
